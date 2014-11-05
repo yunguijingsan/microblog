@@ -1,0 +1,9 @@
+//
+   Created by lcf on 2014/11/5.
+extends layout
+
+block content
+    h1= title
+     -for(var x = 0; x < items.length; x++)
+         li= items[x]
+
