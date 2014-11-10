@@ -32,7 +32,7 @@ app.use('/user/login',users.login);
 app.use('/user/logout',users.logout);
 app.use('/user/post',users.post);
 app.use('/user/delete',users.delete);
-// catch 404 and forward to error handler
+
 app.use(function(req, res, next) {
     var err = new Error('Not Found');
     err.status = 404;
