@@ -26,11 +26,12 @@ app.use('/', routes);
 app.use('/getTime',routes.hello);
 
 app.use('/users', users);
+app.use('/user/get',users.getUser);
 app.use('/user/reg',users.reg);
 app.use('/user/login',users.login);
 app.use('/user/logout',users.logout);
 app.use('/user/post',users.post);
-
+app.use('/user/delete',users.delete);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
     var err = new Error('Not Found');

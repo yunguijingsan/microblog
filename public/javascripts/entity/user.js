@@ -3,12 +3,15 @@
  */
 
 function User() {
-    var name,age;
+    var name,age,password;
     this.setName = function (thyName) {
         name = thyName;
     };
     this.setAge = function (thyAge) {
         age = thyAge;
+    }
+    this.setPassword = function(thyPassword){
+        password = thyPassword;
     }
     this.sayHi = function () {
         return 'Hello ' +  name;

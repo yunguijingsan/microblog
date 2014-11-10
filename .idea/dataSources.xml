@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="999885051">
+  <component name="DataSourceManagerImpl" format="xml" hash="934329782">
     <data-source source="LOCAL" name="microblog" uuid="f7a89ab5-17a6-4c98-b891-dd17aa37fe14">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
